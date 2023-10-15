@@ -1,0 +1,129 @@
+div {
+  overflow: hidden;
+}
+
+.Movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Movie-image {
+  height: 100%;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.Movie-wrapper {
+  width: 250px;
+  color: black;
+  border-radius: 10px;
+}
+
+.Movie-judul {
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.Movie-deskripsi {
+  margin-bottom: 40px;
+  margin-left: 100px;
+
+}
+
+.Movie-btn {
+  padding-top: 20px;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: solid 1px red;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+.Movie-more {
+  text-align: right;
+  margin-top: -40px;
+  color: red;
+  font-weight: bold;
+}
+
+.Movie-arrowRight {
+  color: red; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Movie-login {
+  border: solid 1px;
+  color: red;
+  background-color: transparent;
+  padding: 10px;
+  width: 110px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Movie-register {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  width: 110px;
+  border-radius: 30px;
+  border: solid 1px red;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.Movie-logout {
+  border: solid 1px;
+  color: red;
+  background-color: transparent;
+  padding: 10px;
+  width: 110px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.Movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.Movie-wrapper {
+  width: 250px;
+  color: black;
+  border-radius: 10px;
+}
+
+.Movie-content {
+  margin-top: 10px;
+}
+
+.Movie-back {
+  border: solid 1px green;
+  color: white;
+  background-color: green;
+  padding: 10px;
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  margin-left: 10px;
+}
