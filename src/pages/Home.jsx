@@ -4,7 +4,6 @@ import '../App.css';
 import CarouselSlider from '../components/CarouselSlider';
 import Footer from '../components/Footer';
 import { FaArrowRight } from 'react-icons/fa';
-import SearchBar from '../components/SearchBar';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header'; 
 
@@ -62,7 +61,6 @@ const Home = () => {
         <div >
             <Header onSearch={handleSearch} />
             <CarouselSlider />
-            {/* <SearchBar onSearch={handleSearch} /> */}
             {isLoading ? (
                 <div
                     style={{
@@ -76,7 +74,8 @@ const Home = () => {
                     <h5 style={{ textAlign: "center", margin: "50px", color: "red" }}>
                         Daftar Film Kosong. Silakan Login Atau Register Untuk Melihat Daftar Film.
                     </h5>
-                </div>) : (
+                </div>
+                ) : (
                 <div className="Movie-content" style={{ marginBottom: "80px" }}>
                     <h2 className='Movie-popular' style={{ marginLeft: "15px" }}>Popular Movie</h2>
                     <a href='#' className='Movie-more' style={{ marginRight: "10px", float: "right" }}>See All Movie<FaArrowRight className='Movie-arrowRight' /></a>

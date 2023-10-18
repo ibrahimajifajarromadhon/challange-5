@@ -50,13 +50,12 @@ function Header({ onSearch }) {
                 <Nav.Link
                   className="Movie-login"
                   as={Link}
-                  to={"/login"} >
-                  Login
+                  to={"/login"} >Login
                 </Nav.Link>
                 <Nav.Link
                   className="Movie-register"
                   as={Link}
-                  to={"/register"} >                  Register
+                  to={"/register"} >Register
                 </Nav.Link>
               </>
             )}

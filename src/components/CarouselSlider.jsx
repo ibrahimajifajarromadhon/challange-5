@@ -34,7 +34,7 @@ const CarouselSlider = () => {
 
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} controls={false}>
-            {movies && movies.length > 0 && movies.slice(0, 3).map((movie, idx) => (
+            {movies && movies.length > 0 && movies.slice(1, 4).map((movie, idx) => (
                 <Carousel.Item key={idx} >
                     <img src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} className="img" alt={`Movie ${idx}`} style={{ width: "100%"}} />
                     <Carousel.Caption className="Movie-caption" style={{ textAlign: "left", marginLeft: "-180px", width: "50%", marginBottom: "210px" }}>

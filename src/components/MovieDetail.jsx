@@ -38,6 +38,7 @@ function MovieDetail() {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
+    position: 'absolute',
     top: '0',
     left: '0',
     width: '100vw',
@@ -47,9 +48,9 @@ function MovieDetail() {
 
   const containerStyle = {
     display: 'flex',
-    minHeight: '100vh',
     color: 'white',
     marginTop: '200px',
+    minHeight: '100vh',
   };
 
   return (
